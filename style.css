@@ -67,10 +67,11 @@ body {
 #text-card {
   font-size: 20px;
   width: 100%;
-  padding: 10px;
+  padding: 15px;
   margin-top: 20px;
   background: var(--brown);
   color: var(--white);
-  border-radius: 5px;
+  border-radius: 8px;
   text-align: center;
+  overflow: hidden;
 }
