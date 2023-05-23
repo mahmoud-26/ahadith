@@ -1,0 +1,76 @@
+:root {
+  --white: #ffffff;
+  --gray: #f6f9fb;
+  --black: #64656B;
+  --brown: #392A23;
+}
+
+@font-face {
+  src: url('assets/fonts/Naskh.ttf');
+  font-family: "Naskh";
+}
+
+@font-face {
+  src: url('assets/fonts/NaskhB.ttf');
+  font-family: "NaskhB";
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "NaskhB";
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  padding: 20px;
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: var(--gray);
+}
+
+.inputs {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+#text-input {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  border-bottom: 3px solid #D3D3D3;
+  padding: 5px 10px;
+  font-size: 16px;
+  outline: none;
+  grid-column: 1/11;
+}
+
+#download-btn {
+  width: 100%;
+  border-radius: 5px;
+  outline: none;
+  background-color: var(--white);
+  color: var(--black);
+  font-size: 15px;
+  border: 1px solid lightgray;
+  border-bottom: 3px solid #D3D3D3;
+  transition: 0.1s;
+  grid-column: 11/13;
+}
+
+#download-btn:active {
+  border-bottom-width: 1px;
+  margin-top: 3px;
+}
+
+#text-card {
+  font-size: 20px;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  background: var(--brown);
+  color: var(--white);
+  border-radius: 5px;
+  text-align: center;
+}
