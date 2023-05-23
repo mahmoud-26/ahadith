@@ -21,7 +21,7 @@ textInput.addEventListener('input', (e) => {
 
 downloadBtn.addEventListener('click', () => {
   setTimeout(() => {
-    html2canvas(textCard, {scale: 10}).then(function(canvas) {
+    html2canvas(textCard, { scale: 10 }).then(function(canvas) {
       const imgData = canvas.toDataURL("image/png");
       const link = document.createElement('a');
       link.download = 'text.png';

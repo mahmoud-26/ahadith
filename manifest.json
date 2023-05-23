@@ -1,0 +1,29 @@
+{
+  "background_color": "#ffffff",
+  "description": "Text Editor",
+  "dir": "rtl",
+  "display": "standalone",
+  "name": "Texty",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "Texty",
+  "start_url": "/",
+  "theme_color": "#ffffff",
+  "categories": [
+    "education",
+    "personalization",
+    "productivity",
+    "utilities"
+  ],
+  "screenshots": [],
+  "icons": [
+    {
+      "src": "assets/images/logo.png",
+      "type": "image/png",
+      "sizes": "554x554"
+    }
+  ],
+  "shortcuts": [],
+  "lang": "ar",
+  "iarc_rating_id": "Any ages"
+}
